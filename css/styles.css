@@ -1,12 +1,14 @@
 a {
   color: #11999E;
   font-family: 'Montserrat', sans-serif;
-  margin: 10px 20px;
+  margin: 10px 10px;
   text-decoration:none;
 }
 
 a:hover{
-  color: #EAF6F6;
+  /* color: #EAF6F6;
+  color: #66BFBF;*/
+  color: purple;
 }
 
 body {
@@ -130,8 +132,8 @@ p {
 }
 
 .footer-link {
-  color: #11999E;
-  /*color: blue; */
+  /* color: #11999E; */
+  color: blue;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
   margin: 10px 10px;
