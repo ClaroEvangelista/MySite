@@ -1,0 +1,210 @@
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration:none;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+body {
+  /*
+  background-color: #E4F9F5;
+  background-color: #abf0e9;
+  background-color: #e3fdfd;
+  background-color: #40514E;
+  background-color: #abf0e9;*/
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #66BFBF;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.62rem;
+  /* 90px (static sizes will not change) = 562% (dynamic) = 5.62em (dynamic), **more notes 100% = 16px, (#55 9:44 CSS Sizing) rem is new and preferred */
+  /*line-height: 2;        here the unit is NOT specified #59 2:57 */
+}
+
+h2 {
+  color: #66BFBF;
+  font-size: 2.5rem;
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 0;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 0;
+}
+
+hr {
+  border-color: grey;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  margin: 75px auto 75px auto;
+  width: 5%;
+}
+
+p {
+  line-height: 2;
+}
+
+.blue {
+  color: #323edd;
+  text-decoration: none;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.btn {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 10px;
+  box-shadow: 1px 1px 20px 0 #000000;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #337FED 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  /*CONTACT ME */
+}
+
+.btn:hover {
+  border: solid #337FED 1px;
+  background: #30E3CB;
+  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.circular {
+  border-radius: 50%;
+}
+
+.contact-me {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright {
+  font-size: 0.75rem;
+  color: #EAF6F6;
+  padding: 20px 0
+}
+
+.footer-link {
+  color: #11999E;
+  /*color: blue; */
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 10px;
+}
+
+.hobbies-images {
+  height: 50px;
+  width: 50px;
+  margin-right: 15px;
+}
+
+.hobbies-row {
+  width: 60%;
+  margin: auto;
+  /* line-height: 2; */
+  text-align: center;
+}
+
+.intro {
+  width: 40%;
+  margin: auto;
+}
+
+.MySQL-row {
+  width: 50%;
+  margin: 75px auto 75px auto;
+  text-align: left;
+  /* line-height: 2; */
+}
+
+.MySQL-image {
+  width: 100px;
+  float: right;
+  margin-left: 15px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.skill-row {
+  width: 60%;
+  margin: 75px auto 75px auto;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.top-container {
+  /* background-color: #E4F9F5; */
+  background-color: #e3fdfd;
+  padding-top: 100px;
+  position: relative;
+}
+
+.work-row {
+  width: 60%;
+  margin: 50px auto 50px auto;
+  /* line-height: 2; */
+}
+
+.wp-row {
+  width: 50%;
+  margin: 75px auto 75px auto;
+  text-align: left;
+  /* line-height: 2; */
+}
+
+.wp-image {
+  width: 100px;
+  float: left;
+  margin-right: 15px;
+}
