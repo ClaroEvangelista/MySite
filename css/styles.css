@@ -132,8 +132,8 @@ p {
 }
 
 .footer-link {
-  /* color: #11999E; */
-  color: blue;
+  color: #11999E;
+  /* color: blue; */
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
   margin: 10px 10px;
