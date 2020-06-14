@@ -221,8 +221,9 @@ p {
 .syllabusCompleted .tooltiptext {
   visibility: hidden;
   width: 150px;
-  background-color: blue;
-  color: #fff;
+  /* background-color: blue; */
+  /* color: #fff; */
+  color: blue;
   text-align: center;
   border-radius: 4px;
   padding: 2px 0;
