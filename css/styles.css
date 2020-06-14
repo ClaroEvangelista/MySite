@@ -211,10 +211,36 @@ p {
   margin-right: 15px;
 }
 
-/* Syllabus List added 20200609 */
 .syllabusCompleted {
+  position: relative;
+  display: inline-block;
   font-weight: bold;
+  line-height: 2;
 }
+
+.syllabusCompleted .tooltiptext {
+  visibility: hidden;
+  width: 150px;
+  background-color: blue;
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  padding: 2px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.syllabusCompleted:hover .tooltiptext {
+  visibility: visible;
+}
+
+
+/* Syllabus List added 20200609 */
+/* .syllabusCompleted {
+  font-weight: bold;
+}*/
 
 .syllabusIncomplete {
   color: #DDDDDD;
