@@ -62,7 +62,7 @@ function buttonAnimation(currentKey) {
   } else {
     console.log(currentKey + " from buttonAnimation");
   }
-
+}
   // The below using Switch also works!
   // switch (currentKey) {
   //   case "w":
@@ -80,4 +80,3 @@ function buttonAnimation(currentKey) {
   //     break;
   //   default:
   //     console.log(currentKey + " from buttonAnimation");
-}
