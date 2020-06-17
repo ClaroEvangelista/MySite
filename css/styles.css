@@ -220,7 +220,7 @@ p {
 
 .syllabusCompleted .tooltiptext {
   visibility: hidden;
-  width: 150px;
+  width: 175px;
   color: red;
   /* text-align: center; */
   border-radius: 4px;
